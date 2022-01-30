@@ -1,51 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Raleway&display=swap');
 
 *{
     margin: 0;
 }
-
+@font-face {
+    font-family: tungsten;
+    src: url(fonts/561f38b1f4570de0fb8a39d691ab058c.woff);
+}
 body{
-    font-family: 'Inter', sans-serif;
-    background-color: #d4d4d4;
-    color: #4d4d4d;
+    /* font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif; */
+    font-family: tungsten;
+    background: linear-gradient(
+        45deg, 
+        #b94a3d,
+        #c44334
+        ); 
 }
 
-#main{
+.container{
+    font-size: 1.25rem;
+}
+
+ul{
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 8rem;
+    font-size: 1.8rem;
 }
 
-#title{
-    font-size: 50px;
-    padding: 10px;
+.navbar li{
+    margin-left: 4.5px;
+    margin-right: 4.5rem;
+    list-style-type: none;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-    height: 70vh;
-    margin: 0 auto;
-}
-
-
-#img-caption{
-    padding: 10px;
-    line-height: 1.5em;
-}
-
-#tribute-info{
-    padding: 10px 20px;
-}
-
-a{
+.navbar a{
     text-decoration: none;
-    color: #4d4d4d;
+    color: white;
+}
+.navbar a:hover{
+    color: rgba(216, 3, 3, 0.842);
 }
 
-a:hover{
-    color: white;
-    border: 1px solid #4d4d4d;
-    border-radius: 10px;
+h1{
+    color: black;
+    margin-top: 2em;
+    text-align: center;
+    text-shadow:  0px 2px 2px rgba(0, 0, 0, 0.4); 
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    width: 100%;
+    height: 100vh;
+}
+
+.wrap img{
+    box-shadow: 3px 3px 3px 3px red;
+}
+.wrap p{
+    text-align: center;
+    text-shadow: 2px 2px red;
+    margin-top: 1em;;
+}
+footer{
+    font-size: 1.8em;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.info{
+    font-family: tungsten;
+    background-color: white;
+    padding: 1em;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.info h1{
+    padding: 0.5em;
+    text-shadow :2em 2em white;
+}
+
+.info p{
+    padding: 0.25em;
+}
+
+.inspirations img{
+    float: right;
+    padding-left:0.25em ;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: grid;
+    overflow: hidden;
+}
+.wrapper img {
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width:  90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.one{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.second{
+    grid-column: 2/2;
+    grid-row: 1;
 }
