@@ -3,10 +3,7 @@
 :root {
   --text-color: rgba(99, 28, 28, 0.842);
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> bdc2aa160d4d6fc7871c57b0170645a54f4527b8
 *::before,
 *::after {
   margin: 0;
@@ -133,8 +130,7 @@ footer {
   text-align: center;
   justify-content: center;
   margin-top: 1em;
-<<<<<<< HEAD
-=======
+
 }
 
 .social-link {
