@@ -1,2 +1,2 @@
 # tribute-page
-Responsive website created using HTML AND CSS . 
+Responsive website created using HTML, CSS and JavaScript. 
